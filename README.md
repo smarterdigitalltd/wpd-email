@@ -1,1 +1,1 @@
-# wpd-email
+# WPD Toolset - Email
