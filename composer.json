@@ -1,0 +1,20 @@
+{
+    "name": "wpdevelopers/wpd-toolset-email",
+    "description": "Route WordPress email to trap service if site is not in production",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Doug Belchamber",
+            "email": "doug@smarter.uk.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/smarterdigitalltd/wpd-toolset-site-state.git"
+        }
+    ],
+    "require": {
+        "wpdevelopers/wpd-toolset-site-state": "master"
+    }
+}
