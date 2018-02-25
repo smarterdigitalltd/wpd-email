@@ -15,6 +15,6 @@
         }
     ],
     "require": {
-        "smarterdigitalltd/wpd-toolset-site-state": "master"
+        "smarterdigitalltd/wpd-toolset-site-state": "dev-master"
     }
 }
