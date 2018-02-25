@@ -1,5 +1,5 @@
 {
-    "name": "wpdevelopers/wpd-toolset-email",
+    "name": "smarterdigitalltd/wpd-toolset-email",
     "description": "Route WordPress email to trap service if site is not in production",
     "type": "library",
     "authors": [
@@ -15,6 +15,6 @@
         }
     ],
     "require": {
-        "wpdevelopers/wpd-toolset-site-state": "master"
+        "smarterdigitalltd/wpd-toolset-site-state": "master"
     }
 }
