@@ -8,13 +8,11 @@
             "email": "doug@smarter.uk.com"
         }
     ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url":  "https://github.com/smarterdigitalltd/wpd-toolset-site-state"
+    "require": {},
+    "autoload": {
+        "files": [ "wpd-toolset-email.php" ],
+        "psr-4": {
+            "WPD\\Toolset\\": "src"
         }
-    ],
-    "require": {
-        "smarterdigitalltd/wpd-toolset-site-state": "dev-master"
     }
 }
