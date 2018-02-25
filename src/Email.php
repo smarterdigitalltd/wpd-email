@@ -10,9 +10,7 @@
  * @license     GNU-2.0+
  */
 
-namespace WPD\Toolset\Setup;
-
-use WPD\Toolset\Utils as Utils;
+namespace WPD\Toolset;
 
 class Email
 {
@@ -57,7 +55,7 @@ class Email
 	 *
 	 * @return  void
 	 */
-	public static function registerHooks()
+	private static function registerHooks()
 	{
 		add_action('phpmailer_init', [__CLASS__, 'setPhpMailerParameters'], 1, 999);
 	}
@@ -73,7 +71,7 @@ class Email
 	 */
 	public static function setPhpMailerParameters($phpmailer)
 	{
-		if (!class_exists('Utils\SiteState') || Utils\SiteState::siteStateIsProduction()) {
+		if (!class_exists('Utils\SiteState') || SiteState::siteStateIsProduction()) {
 			return;
 		}
 
