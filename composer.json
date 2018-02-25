@@ -11,7 +11,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url":  "https://github.com/smarterdigitalltd/wpd-toolset-site-state.git"
+            "url":  "https://github.com/smarterdigitalltd/wpd-toolset-site-state"
         }
     ],
     "require": {
