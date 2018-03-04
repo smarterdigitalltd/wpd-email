@@ -1,5 +1,3 @@
 <?php
 
-namespace WPD\Toolset;
-
-Email::getInstance();
+return WPD\Toolset\Features\Email::class;

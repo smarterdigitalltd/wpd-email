@@ -1,16 +1,6 @@
 <?php
 
-/**
- * Email setup
- *
- * @package     WPD\Toolset
- * @since       1.0.0
- * @author      smarterdigitalltd
- * @link        https://wpdevelopers.co.uk
- * @license     GNU-2.0+
- */
-
-namespace WPD\Toolset;
+namespace WPD\Toolset\Features;
 
 class Email
 {
