@@ -71,7 +71,7 @@ class Email
 	 */
 	public static function setPhpMailerParameters($phpmailer)
 	{
-		if (!class_exists('SiteState') || SiteState::siteStateIsProduction()) {
+		if (!class_exists('SiteState') || SiteState::isProduction()) {
 			return;
 		}
 
