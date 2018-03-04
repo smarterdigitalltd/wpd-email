@@ -1,5 +1,5 @@
 {
-    "name": "smarterdigitalltd/wpd-toolset-email",
+    "name": "smarterdigital/wpd-toolset/features/email",
     "description": "Route WordPress email to trap service if site is not in production",
     "type": "library",
     "authors": [
@@ -10,9 +10,8 @@
     ],
     "require": {},
     "autoload": {
-        "files": [ "wpd-toolset-email.php" ],
         "psr-4": {
-            "WPD\\Toolset\\": "src"
+            "WPD\\Toolset\\Features\\": "src"
         }
     }
 }
