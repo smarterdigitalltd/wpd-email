@@ -2,7 +2,7 @@
 
 namespace WPD\Toolset\Features;
 
-class Email
+final class Email
 {
 
 	/**
