@@ -1,3 +1,3 @@
 <?php
 
-return WPD\Toolset\Features\Email::class;
+return WPD\Toolset\Features\Email::getInstance();
