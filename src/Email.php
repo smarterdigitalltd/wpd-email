@@ -17,7 +17,7 @@ final class Email
 	 *
 	 * @return  void
 	 */
-	protected function __construct()
+	public function __construct()
 	{
 		$this->registerHooks();
 	}
